@@ -1,0 +1,421 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+}
+
+#main{
+    height:90px;
+    width: 100%;
+    /* background-color: mediumslateblue; */
+    background-color: #141315;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.1s ease-in;
+    
+}
+
+#main h5 a{
+    font-size: 24px;
+    border: 1.8px solid rgb(217, 231, 16);
+    border-radius: 24px;
+    padding: 0px 22px;
+    text-decoration: none;
+    color: white;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ #main :hover{
+    color: #fb8500;
+    border-color: white;
+     
+}
+/* Base styles for #main navbar */
+#main {
+    height: 90px;
+    width: 100%;
+    background-color: #141315;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.1s ease-in;
+}
+
+#main h5 a {
+    font-size: 24px;
+    border: 1.8px solid rgb(217, 231, 16);
+    border-radius: 24px;
+    padding: 0px 22px;
+    text-decoration: none;
+    color: white;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#main a:hover {
+    color: #fb8500;
+    border-color: white;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    #main {
+        height: auto; /* Allow height to adjust based on content */
+        flex-direction: column; /* Stack items vertically */
+        justify-content: center; /* Center items vertically */
+    }
+
+    #main h5 a {
+        margin-bottom: 10px; /* Add space between links */
+    }
+}
+
+footer{
+    height: 90px;
+    width:100%;
+background-color: grey;
+    font-size: 40px;
+    text-align: center;
+    justify-content: space-between;
+    transition: all 0.1s ease-in;
+    margin-top: 40px;
+
+}
+@media screen and(max-width:768px) {
+    footer{
+        height: auto; /* Allow height to adjust based on content */
+        flex-direction: column; /* Stack items vertically */
+        justify-content: center; 
+    }
+}
+
+footer #ione:hover{
+  color: rgb(21, 21, 194);
+  
+ 
+}
+
+footer #itwo:hover{
+    color:white;
+}
+
+footer #ithree:hover{
+    color:red;
+}
+
+footer h4:hover{
+    color:darkred;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 2px;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    background-color: lavender;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: url("https://images.unsplash.com/photo-1586264508495-d10fbde7360a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8");
+    */
+   
+    
+    background-image: url(blackbg.avif);
+    
+
+}
+
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 9px;
+    background: linear-gradient(rgb(255, 255, 16),rgb(247, 168, 21),rgb(208, 112, 128),rgb(169, 12, 169),rgb(62, 62, 197));
+    padding: 2px;
+    margin-top: 6px;
+}
+#pic h1{
+    color: #0086fb;
+    margin-left: 8px;
+    font-size: 40px;
+}
+span{
+    color:rgb(158, 13, 13);
+}
+
+#pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+#about{
+    height: 440px;
+    width: 300px;
+    text-align: center;
+    color: rgb(214, 172, 6);
+    border: 6px solid rgb(50, 205, 161);
+    padding: 15px;
+    font-weight: 300;
+    font-size:22px;
+   margin-top: 30px;
+   margin-left: 20px;
+   justify-content: center;
+  
+   
+}
+#bit{
+    margin-top: 30px;
+    width:300px;
+    height:60px;
+    margin-left: 70px;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #0086fb;
+
+}
+#pic i{
+    font-size: 40px;
+    color: #ffbd00;
+    margin-left: 9px;
+    animation: handprop 0.8s ease-in  1s infinite normal;
+}
+
+@keyframes handprop{
+    from{
+        color:#ffbd00;
+        font-size: 40px;
+    }
+    to{
+        color:#fb8500;
+        font-size: 44px;
+       
+    }
+
+}
+#parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#edu1{
+    height:300px;
+    width:300px;
+    background-color: black;
+   font-size: 19px;
+    color: lavender;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+#edu1 img{
+    height:60px;
+    width: 60px;
+    border:50%;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+
+    
+}
+
+#edu2{
+    height:300px;
+    width:300px;
+    background-color: black;
+    font-size: 19px;
+    color: lavender;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} 
+#edu2 img{
+    height:60px;
+    width: 60px;
+    border:50%;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+#edu3{
+    height:300px;
+    width:300px;
+    background-color: black;
+    font-size: 19px;
+    color: lavender;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#edu3 img{
+    height:60px;
+    width: 60px;
+    border:50%;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+#projects{
+
+ margin-left: 9px;
+
+}
+#project1{
+    height:310px;
+    width:330px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    gap: 5;
+}
+#project1 button,#project2 button,#project3 button{
+    border-radius: 50%;
+    padding: 10px;
+    font-family: 100;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    margin-top: 10px;
+    font-style: normal;
+}
+#project1> p,#project2>p,#project3>p{
+    text-align: center;
+    font-family: "Kode Mono", monospace;
+}
+#project2{
+    height:350px;
+    width:330px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    gap: 5;
+}
+
+#project3{
+    height:350px;
+    width:330px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    gap: 5;
+}
+
+
+#myskills p{
+    color: white;
+    font-family: "Kode Mono", monospace;
+}
+#myskills h2{
+ transition: all 0.2s ease-in 0s;
+ color: rgba(239, 88, 29, 0.842);
+ font-family: "Kode Mono", monospace;
+}
+
+#myskills h2:hover{
+    text-decoration: underline;
+    color: rgb(240, 79, 132);
+   
+    font-size: 30px;
+}
+#myskills #div1>img,#div2>img,#div3>img{
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 18px;
+    width: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(rgb(255, 255, 16),rgb(247, 168, 21),rgb(208, 112, 128),rgb(169, 12, 169),rgb(62, 62, 197));
+    padding: 2px;
+}
+
+#div1{
+    height:360px;
+    width:200px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    gap: 5;
+    padding: 20px;
+}
+
+#div2{
+    height:360px;
+    width:200px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    gap: 5;
+    padding: 20px;
+}
+#div3{
+    height:250px;
+    width:200px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    gap: 5;
+    padding: 20px;
+}
+#resume{
+    height:180px;
+    width:300px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    gap: 5;
+    padding: 20px;
+
+
+}
+#resume>a{
+    transition: all 0.1s ease-in;
+    color: rgb(52, 161, 1);
+    padding: 30px;
+    font-size: 40px;
+    font-family: "Kode Mono", monospace;
+    
+}
+#resume>a:hover{
+    font-size: 50px;
+    color: aquamarine;
+
+}
+#last{
+    font-size: 60px;
+    font-family: "Kode Mono", monospace;
+    text-align: center;
+    background-image: url(try3.webp);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: lastAnimate 0.8s ease-in  1s infinite normal;;
+}
+@keyframes lastAnimate{
+    from{
+        color: transparent;
+    }
+    to{
+        color: rgb(247, 195, 5);
+    }
+}
